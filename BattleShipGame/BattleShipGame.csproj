@@ -42,8 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\AIModule.cs" />
+    <Compile Include="Helpers\CoordinateCalculator.cs" />
+    <Compile Include="Helpers\FieldExtensions.cs" />
+    <Compile Include="Helpers\Logger.cs" />
+    <Compile Include="Model\Field.cs" />
+    <Compile Include="Model\Fleet.cs" />
+    <Compile Include="Model\Ship.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Grid.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
