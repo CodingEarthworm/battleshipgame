@@ -26,7 +26,7 @@ namespace BattleShipGame
 
             Console.WriteLine("-----");
             Console.WriteLine("Greetings, commander! Welcome to the next iteration of Battleship board game implementation.");
-            Console.WriteLine("Write a letter and a digit to shoot to a field! For example, A5");
+            Console.WriteLine("Write a letter and a digit to shoot to a field! For example: A5");
 
             while (!isOver)
             {
