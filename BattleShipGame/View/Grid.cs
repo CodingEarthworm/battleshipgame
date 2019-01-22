@@ -42,7 +42,7 @@ namespace BattleShipGame.View
             Console.WriteLine();
 
             Console.WriteLine(" Enemy Battleship grid:");
-            GenerateSingleTable(EnemyMap, true);
+            GenerateSingleTable(EnemyMap, false);
 
             Console.WriteLine();
             Console.WriteLine("-----");
